@@ -2,6 +2,7 @@
 
 from enum import EnumMeta
 
+
 class EnumHelper(EnumMeta):
 
     def _contains(self, member):
