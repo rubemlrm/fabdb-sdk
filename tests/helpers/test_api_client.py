@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
+from requests import ConnectionError
 import unittest
 
 from fabdb_sdk.helpers.api_client import ApiClient
-from requests import ConnectionError
 
 
 class Test_TestApiClient(unittest.TestCase):
