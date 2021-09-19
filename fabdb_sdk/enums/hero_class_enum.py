@@ -6,11 +6,11 @@ from fabdb_sdk.helpers.enum_helper import EnumHelper
 
 
 class HeroClassEnum(Enum, metaclass=EnumHelper):
-    BRUTE = 'brute',
-    GUARDIAN = 'guardian',
-    MECHANOLOGIST = 'mechanologist',
-    NINJA = 'ninja',
-    RANGER = 'ranger',
-    RUNEBLADE = 'runeblade',
-    WARRIOR = 'warrior',
-    WIZARD = 'wizard'
+    BRUTE = ("brute",)
+    GUARDIAN = ("guardian",)
+    MECHANOLOGIST = ("mechanologist",)
+    NINJA = ("ninja",)
+    RANGER = ("ranger",)
+    RUNEBLADE = ("runeblade",)
+    WARRIOR = ("warrior",)
+    WIZARD = "wizard"

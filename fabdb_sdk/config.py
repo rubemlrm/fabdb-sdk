@@ -3,4 +3,4 @@
 
 __version__ = "0.0.1"
 __pypi_packagename__ = "fabDbClient"
-__endpoint__ = ""
+__baseurl__ = "https://api.fabdb.net"
