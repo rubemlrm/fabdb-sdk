@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "fabdb_sdk"
-version = "0.1.0"
+version = "0.0.1"
 description = ""
 authors = ["Rubem Mota <rubemmota89@gmail.com>"]
 
