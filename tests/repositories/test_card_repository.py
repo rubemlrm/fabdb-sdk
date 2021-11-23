@@ -8,9 +8,10 @@ from fabdb_sdk.repositories.card_repository import CardRepository
 class Test_TestCardRepository(unittest.TestCase):
     def test_get_all(self):
         response = CardRepository().get_all()
-        self.assertIn("absorb-in-aether-blue",
-                        json.dumps(response),
-                        "not found")
+        self.assertIn(
+            "absorb-in-aether-blue",
+            json.dumps(response),
+            "not found")
 
     def test_get_card(self):
         response = CardRepository().get_card("ARC000")
